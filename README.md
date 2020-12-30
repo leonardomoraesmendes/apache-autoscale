@@ -8,10 +8,12 @@ Scale down - CPU < 60%
 
 This project are segmented through 2 modules:
 
-**ec2-lb**
+**ec2-lb** 
+
 Responsible to create all resources of network, permissions, load balancer, and instance.
 
 **asg**
+
 This module is used to create Auto Scale Group, attach the instance from ec2-lb to ASG and all requisites to make the cluster grow up and down.
 
 ## Requisites
