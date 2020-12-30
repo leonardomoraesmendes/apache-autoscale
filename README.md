@@ -45,7 +45,7 @@ tfenv install
 > For this step works the file .terraform-version is required at the current path.
 
 
-## Executing project
+## Executing the project
 
 To custom that project you can modify [variables.tf](https://github.com/leonardomoraesmendes/apache-autoscale/blob/master/variables.tf), at the variable file you can alter:
 ```
