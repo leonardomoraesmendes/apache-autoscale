@@ -3,7 +3,7 @@
 This Project is used for the creation of EC2 instances under Load Balancer (ELB) each instance have Apache2 (installed by bootstrapping) and with connections at S3 by IAM role, these instances are attached to AutoScaleGroup and it uses CPU metrics to resize the environment:
 ```
 Scale up   - CPU > 80%
-Scale down - CPU < 60%>
+Scale down - CPU < 60%
 ```
 
 This project are segmented through 2 modules:
