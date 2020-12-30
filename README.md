@@ -68,7 +68,9 @@ Get the URL of LoadBalance
 terraform output  
 ```
 Open in browser:
+
 http://<elb_id>.<region>.elb.amazonaws.com/
+
 http://<elb_id>.<region>.elb.amazonaws.com/s3.html
 
 ## Testing the Auto Scale Group
