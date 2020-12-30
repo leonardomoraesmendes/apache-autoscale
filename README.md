@@ -18,11 +18,11 @@ This module is used to create Auto Scale Group, attach the instance from ec2-lb 
 
 ## Requisites
 
-- Valid *AWS Account*
+- Valid *AWS Account*.
 
--  [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) - To manage AWS resources at the command line, ASG's module use aws-cli to attach existing EC2 to ASG
+-  [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) - To manage AWS resources at the command line, ASG's module use aws-cli to attach existing EC2 to ASG.
 
-- Credentials configured
+- Credentials configured.
 
 ```
 export AWS_ACCESS_KEY_ID=""
@@ -63,7 +63,7 @@ terraform apply
 ```
 
 ## Testing the webserver
-Get the URL of LoadBalance
+Get the URL of LoadBalance.
 ```
 terraform output  
 ```
@@ -74,13 +74,13 @@ http://<elb_id>.<region>.elb.amazonaws.com/
 http://<elb_id>.<region>.elb.amazonaws.com/s3.html
 
 ## Testing the Auto Scale Group
-If you apply ASG you can test to grow up the cluster using a simple tool like ApacheBenchmark `ab`, but to scale up you need to execute that many times, since apache's process is very light
+If you apply ASG you can test to grow up the cluster using a simple tool like ApacheBenchmark `ab`, but to scale up you need to execute that many times, since apache's process is very light.
 
 Get the URL of LoadBalance:
 ```
 terraform output  
 ```
-Running benchmark
+Running benchmark.
 ```
 ab -n 10000 -c 50 http://<elb_id>.<region>.elb.amazonaws.com/
 ```
