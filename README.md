@@ -47,7 +47,7 @@ tfenv install
 
 ## Executing the project
 
-To custom that project you can modify [variables.tf](https://github.com/leonardomoraesmendes/apache-autoscale/blob/master/variables.tf), at the variable file you can alter:
+To custom that project you can modify [variables.tf](https://github.com/leonardomoraesmendes/apache-autoscale/blob/master/variables.tf), at the variables file you can alter:
 ```
 name          = Default name, this name are used to define resources name inside the modules.
 region        = Region of AWS where all resources will be deployed.
